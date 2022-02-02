@@ -1,0 +1,55 @@
+.NavBar{
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoimg{
+    box-shadow: 5px 5px 5px #6d6d6d;
+}
+
+.logoimg img{
+    width: 7rem;
+    height: 7rem;
+}
+.ul-list{
+    display: flex;
+}
+
+.list-items{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 3rem;
+}
+.item-nav{
+    margin-left: 1rem;
+}
+.item-nav a{
+    color: #000;
+    transition: ease-in-out 0.5s;
+}
+.item-nav:hover a{
+    color: #6d6d6d;
+}
+.item-buy img{
+    margin-left: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+@media (max-width:768px) {
+    .logoimg img{
+      width: 5rem;
+      height: 5rem;
+    }
+    .list-items{
+        flex-direction: column;
+    }
+    .item-nav{
+        margin-bottom: .5rem;
+    }
+    
+}

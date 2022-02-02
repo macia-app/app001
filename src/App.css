@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/* Matías styles*/
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
