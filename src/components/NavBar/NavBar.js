@@ -1,21 +1,22 @@
-
+import logo from '../../Assets/icono.jpg'
 import './NavBar.css'
+import CartWidget from '../CartWidget/CartWidget'
 
 
 const Navbar = () => {
     return (
       <nav className="NavBar">
           <div className="logoimg">
-              <a href="index.html"><img src="./images/icono.jpg" alt="Logo" /></a>
+              <img src={logo} alt="Logo" />
           </div>
           <div className="ul-list">
             <ul className="list-items">
-              <li className="item-nav"><a href="#">Carretera</a></li>
-              <li className="item-nav"><a href="#">Montaña</a></li>
-              <li className="item-nav"><a href="#">Paseo</a></li>
-              <li className="item-nav"><a href="#">Eléctrica</a></li>
+              <li className="item-nav">Carretera</li>
+              <li className="item-nav">Montaña</li>
+              <li className="item-nav">Paseo</li>
+              <li className="item-nav">Eléctrica</li>
              
-              <li className="item-nav item-buy"><a href="#"><img src="./images/carrito.png" alt="Carrito compra" /></a></li>
+              <CartWidget />
             </ul>
           </div>
       </nav>

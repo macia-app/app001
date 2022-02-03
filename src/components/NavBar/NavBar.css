@@ -7,6 +7,7 @@
 }
 
 .logoimg{
+    cursor: pointer;
     box-shadow: 5px 5px 5px #6d6d6d;
 }
 
@@ -24,20 +25,15 @@
     margin-right: 3rem;
 }
 .item-nav{
+    cursor: pointer;
     margin-left: 1rem;
 }
-.item-nav a{
-    color: #000;
-    transition: ease-in-out 0.5s;
-}
-.item-nav:hover a{
+
+
+.item-nav:hover{
     color: #6d6d6d;
 }
-.item-buy img{
-    margin-left: 2rem;
-    width: 2rem;
-    height: 2rem;
-}
+
 
 
 @media (max-width:768px) {

@@ -1,0 +1,19 @@
+
+.shopItems{
+    display: flex;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.shopItems:hover{
+    transform: scale(1.1);
+}
+
+.shopButton{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.itemCounter{
+    width: 1rem;
+    border-radius: 50%;
+    border: 2px solid rgb(236, 32, 32)
+}
